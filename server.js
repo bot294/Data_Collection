@@ -17,8 +17,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const client = new DynamoDBClient({
   region: "us-east-1",
   credentials: {
-    accessKeyId: "AKIAW4FDLNOVNKXKVZ7D",
-    secretAccessKey: "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",
+    accessKeyId: "",
+    secretAccessKey: "",
   },
 });
 
